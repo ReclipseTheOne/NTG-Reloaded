@@ -12,10 +12,10 @@
     "overrides": "overrides",
     "manifestVersion": 1,
     "version": "1.0",
-    "author": "GregTech Community Pack Dev Team",
+    "author": "NTG Devs",
     "externalDeps":[
     ],
-    "name": "GregTech Community Pack",
+    "name": "NTG: Reloaded",
     "files":[
         {
             "projectID": 557549,
