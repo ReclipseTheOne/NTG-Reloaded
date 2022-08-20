@@ -1,6 +1,5 @@
 # mc-modpack-template
 A template for a mc modpack with an intergrated buildscript written in python
-
 ## instructions for use
 1. you need to have python3 and requests installed
 2. you need to supply a manifest.json, generated or handmade
