@@ -1,5 +1,5 @@
 # mc-modpack-template
-A template for a mc modpack with an intergrated buildscript written in python
+A template for a mc modpack with an intergrated buildscript written in python [TEST EDIT]
 
 ## instructions for use
 1. you need to have python3 and requests installed
