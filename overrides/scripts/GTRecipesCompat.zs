@@ -1,5 +1,9 @@
 #priority 69
 
+import mods.gregtech.recipe.RecipeMap;
+
+
+//Napalm line
 chemical_reactor.recipeBuilder()
         .notConsumable(<gregtech:meta_item_1:461>.withTag({Configuration: 1}))
         .fluidInputs(<liquid:styrene> * 144)
@@ -34,5 +38,52 @@ large_chemical_reactor.recipeBuilder()
         .fluidInputs(<liquid:benzene> * 2100)
         .fluidOutputs(<liquid:napalm> * 10000)
         .duration(120)
+        .EUt(512)
+        .buildAndRegister();
+
+//Techguns incendiary ammo and explosive
+
+//Incendiary
+chemical_reactor.recipeBuilder()
+        .inputs(<techguns:itemshared:2>)
+        .fluidInputs(<liquid:napalm> * 750)
+        .outputs(<techguns:itemshared:106>)
+        .duration(60)
+        .EUt(512)
+        .buildAndRegister();
+
+chemical_reactor.recipeBuilder()
+        .inputs(<techguns:itemshared:4>)
+        .fluidInputs(<liquid:napalm> * 750)
+        .outputs(<techguns:itemshared:108>)
+        .duration(60)
+        .EUt(512)
+        .buildAndRegister();
+
+chemical_reactor.recipeBuilder()
+        .inputs(<techguns:itemshared:3>)
+        .fluidInputs(<liquid:napalm> * 750)
+        .outputs(<techguns:itemshared:110>)
+        .duration(60)
+        .EUt(512)
+        .buildAndRegister();
+
+chemical_reactor.recipeBuilder()
+        .inputs(<techguns:itemshared:1>)
+        .fluidInputs(<liquid:napalm> * 750)
+        .outputs(<techguns:itemshared:109>)
+        .duration(60)
+        .EUt(512)
+        .buildAndRegister();
+
+//Explosive
+
+large_chemical_reactor.recipeBuilder()
+        .inputs(<techguns:itemshared:4>)
+        .inputs(<minecraft:fire_charge> * 16)
+        .inputs(<gregtech:meta_item_1:498> * 16)
+        .fluidInputs(<liquid:sulfuric_acid> * 2304)
+        .outputs(<techguns:itemshared:144>)
+        .duration(60)
         .EUt(512)
         .buildAndRegister();
