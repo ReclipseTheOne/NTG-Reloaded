@@ -87,3 +87,13 @@ large_chemical_reactor.recipeBuilder()
         .duration(60)
         .EUt(512)
         .buildAndRegister();
+        
+//Xtones
+
+assembler.recipeBuilder()
+        .inputs(<minecraft:stone>)
+        .notConsumable(<gregtech:meta_item_1:461>.withTag({Configuration: 1}))
+        .outputs(<xtones:base> * 2)
+        .duration(10)
+        .EUt(32)
+        .buildAndRegister();
