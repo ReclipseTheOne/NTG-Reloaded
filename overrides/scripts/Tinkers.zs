@@ -55,19 +55,19 @@ function TiCMaterialRemover(umaterial as string) {
     mods.jei.JEI.removeAndHide(<tconstruct:bow_limb>.withTag({Material: umaterial}));
     mods.jei.JEI.removeAndHide(<tconstruct:arrow_head>.withTag({Material: umaterial}));
 }
-TiCMaterialRemover("psi");
-TiCMaterialRemover("psigem");
-TiCMaterialRemover("ebonypsi");
-TiCMaterialRemover("ivorypsi");
-TiCMaterialRemover("ludicrite");
-TiCMaterialRemover("quartzenrichediron");
-TiCMaterialRemover("blutonium");
-TiCMaterialRemover("yellorium");
-TiCMaterialRemover("cyanite");
-TiCMaterialRemover("mithril");
-TiCMaterialRemover("yellowgarnet");
-TiCMaterialRemover("refinediron");
-TiCMaterialRemover("redgarnet");
-TiCMaterialRemover("advancedalloy");
-
+//TiCMaterialRemover("psi");
+//TiCMaterialRemover("psigem");
+//TiCMaterialRemover("ebonypsi");
+//TiCMaterialRemover("ivorypsi");
+///TiCMaterialRemover("ludicrite");
+//TiCMaterialRemover("quartzenrichediron");
+//TiCMaterialRemover("blutonium");
+//TiCMaterialRemover("yellorium");
+//TiCMaterialRemover("cyanite");
+//TiCMaterialRemover("mithril");
+//TiCMaterialRemover("yellowgarnet");
+//TiCMaterialRemover("refinediron");
+//TiCMaterialRemover("redgarnet");
+//TiCMaterialRemover("advancedalloy");
+//^ have been disabled directly from the config file :D
  

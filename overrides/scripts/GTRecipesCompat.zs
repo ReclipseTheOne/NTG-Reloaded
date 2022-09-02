@@ -87,7 +87,7 @@ large_chemical_reactor.recipeBuilder()
         .duration(60)
         .EUt(512)
         .buildAndRegister();
-        
+
 //Xtones
 
 assembler.recipeBuilder()
