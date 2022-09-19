@@ -64,3 +64,6 @@ mods.jei.JEI.removeAndHide(<libvulpes:ore0:4>);
 mods.jei.JEI.removeAndHide(<libvulpes:ore0:5>);
 mods.jei.JEI.removeAndHide(<libvulpes:ore0:9>);
 mods.jei.JEI.removeAndHide(<libvulpes:ore0:10>);
+
+mods.jei.JEI.removeAndHide(<libvulpes:battery>);
+mods.jei.JEI.removeAndHide(<libvulpes:battery:1>);

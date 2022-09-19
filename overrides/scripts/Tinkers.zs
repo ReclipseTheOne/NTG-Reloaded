@@ -1,5 +1,13 @@
 //This was made so that i can give infinity rods (unbreakable tool) as quest reward
 mods.tconstruct.Melting.removeRecipe(<liquid:infinity_metal>);
+mods.jei.JEI.removeAndHide(<liquid:kovar>);
+mods.jei.JEI.removeAndHide(<tinkers_reforged:kovar_ingot>);
+mods.jei.JEI.removeAndHide(<tinkers_reforged:kovar_dust>);
+mods.jei.JEI.removeAndHide(<tinkers_reforged:kovar_plate>);
+mods.jei.JEI.removeAndHide(<tinkers_reforged:kovar_gear>);
+mods.jei.JEI.removeAndHide(<tinkers_reforged:kovar_glass>);
+mods.jei.JEI.removeAndHide(<ore:blockKovar>);
+
 
 function TiCMaterialRecipeRemover(umaterial as string) {
     mods.tconstruct.Casting.removeTableRecipe(<tconstruct:shard>.withTag({Material: umaterial}));

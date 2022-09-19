@@ -1,0 +1,234 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = 0
+  action = movebutton
+  y = 24
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = sethoverlabel
+  label = §aBut, more the people more the fun
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = -26
+  action = movebutton
+  y = 48
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 20
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttonlabel
+  value = o
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttondescription
+  description = Opens the Options Menu
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = 0
+  action = movebutton
+  y = 48
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 200
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = sethoverlabel
+  label = §4See you next time :)
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = top-right
+  x = -204
+  action = movebutton
+  y = 18
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = sethoverlabel
+  label = §bSometimes solo is the way
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = -26
+  action = movebutton
+  y = 24
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 20
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = setbuttonlabel
+  value = m
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = setbuttondescription
+  description = Opens the mods menu
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376346%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = -26
+  action = movebutton
+  y = 0
+}
+
+customization {
+  identifier = %id=376346%
+  action = setbuttondescription
+  description = Subatomic particles: Coming to teathers in %realtimeyear%
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 357
+  width = 246
+  action = deep_customization_element:title_screen_forge_top
+  actionid = ae1fccce-ff49-4ee3-91ac-e28d38dfb2d51663256253188
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 152
+  action = deep_customization_element:title_screen_branding
+  actionid = a6656216-7cf8-4102-a4fa-159deafeb44d1663256253198
+  y = 467
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 746
+  width = 213
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 07e90f13-7221-41f4-839e-724a62c147591663256253198
+  y = 520
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 583
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = d11b39f8-69f4-4cf4-a788-9dfd37612c7a1663256253199
+  y = 227
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 343
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 27fa1b71-db8b-4687-93fe-3abe7a8161341663256253199
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = false
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 5a9d1dc7-b5ad-404a-a507-5e518051d07f1663256253199
+  y = 0
+  height = 30
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = Current Player: %playername% %n%Mods Loaded: %loadedmods%%n%%n%Powered by Forge: %version:forge% and MCP 9.42
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 5
+  width = 230
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 70803041-ab34-4992-804f-6434078eadb51663256762960
+  y = 495
+  alignment = left
+  height = 40
+}
+
